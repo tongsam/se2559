@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_News" object="${news}" path="/news" z="T3tZFK2hlCvmOPos6TU/O5uGU88=">
+        <field:display field="newsID" id="s_com_roo_team19_domain_News_NewsID" object="${news}" z="86VPadGHI/UrhBWjPFx/KlcDNCA="/>
+        <field:display field="toppic" id="s_com_roo_team19_domain_News_Toppic" object="${news}" z="6VuSFTfSe1BXQwH9YFbxgjDGw5Y="/>
+        <field:display field="content" id="s_com_roo_team19_domain_News_Content" object="${news}" z="ieiEpQB4OPYIPmlFvOgPMgY+n68="/>
+        <field:display calendar="true" dateTimePattern="${news_post_date_format}" field="post" id="s_com_roo_team19_domain_News_Post" object="${news}" z="TIuG0MFLCKlU127wSKktBiWjQvM="/>
+        <field:display field="timePost" id="s_com_roo_team19_domain_News_TimePost" object="${news}" z="TFqO/OzbwuyUqDqmaLnGE/LoOO8="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_team19_domain_Ticket" items="${tickets}" z="MLD68kNZAYqDDHg+wl3kr0hQTHI=">
+        <table:table data="${tickets}" id="l_com_roo_team19_domain_Ticket" path="/tickets" typeIdFieldName="id_" z="JXOUHt8ExFNKFmJd9entDP4y7ic=">
+            <table:column id="c_com_roo_team19_domain_Ticket_id" property="id" z="7Q7gCDR28V70BKQ9JXmgwKXgE2E="/>
+            <table:column id="c_com_roo_team19_domain_Ticket_members" property="members" z="X9wI73LoXcG9zgPg4WhJs0tUCGo="/>
+            <table:column id="c_com_roo_team19_domain_Ticket_flightone" property="flightone" z="E28y6mD9TaNZduqDdvbr+z5wCAM="/>
+            <table:column id="c_com_roo_team19_domain_Ticket_flightwo" property="flightwo" z="4VuojtyK/VLUJ5d7nbIUzy0Y+6c="/>
+            <table:column id="c_com_roo_team19_domain_Ticket_seats" property="seats" z="QibVQsu0WaPB2yPB9nCFKAW1J0o="/>
+            <table:column id="c_com_roo_team19_domain_Ticket_food" property="food" z="ljQq3EG0it1cepoLTnn3+RjMdh0="/>
+        </table:table>
+    </page:list>
+</div>

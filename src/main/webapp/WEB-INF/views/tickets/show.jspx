@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_Ticket" object="${ticket}" path="/tickets" z="Fvb5LCW0ITpM/GrWgDEqmu0QmuU=">
+        <field:display field="id" id="s_com_roo_team19_domain_Ticket_id" object="${ticket}" z="+R0lZKC+xtLudrVJDyJjCULLa1M="/>
+        <field:display field="members" id="s_com_roo_team19_domain_Ticket_members" object="${ticket}" z="1tYgyZYkYv7z4afS+DlRONUb7Vc="/>
+        <field:display field="flightone" id="s_com_roo_team19_domain_Ticket_flightone" object="${ticket}" z="GkYm9l60uawSHrHFf2mbE3JbC7g="/>
+        <field:display field="flightwo" id="s_com_roo_team19_domain_Ticket_flightwo" object="${ticket}" z="pkq5fMWYIFVrhbhLC599EH26joY="/>
+        <field:display field="seats" id="s_com_roo_team19_domain_Ticket_seats" object="${ticket}" z="9N/HR8ynq1eBg0vghGzRLMhsYvs="/>
+        <field:display field="food" id="s_com_roo_team19_domain_Ticket_food" object="${ticket}" z="yL3jluNnG7bibBL2zpvIDWyEJBw="/>
+    </page:show>
+</div>

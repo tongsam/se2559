@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_team19_domain_News" items="${newsitems}" z="KL/URAc4YDT71JOsklcMANJ2wP0=">
+        <table:table data="${newsitems}" id="l_com_roo_team19_domain_News" path="/news" z="0vaKIUnciY8dNG2C5ZZCuQ7204w=">
+            <table:column id="c_com_roo_team19_domain_News_NewsID" property="newsID" z="j/SH7AcOdjnM8YXUK6cUlc1TFWA="/>
+            <table:column id="c_com_roo_team19_domain_News_Toppic" property="toppic" z="rihDpyyk1ygEu385GSBNXktQ6/Q="/>
+            <table:column id="c_com_roo_team19_domain_News_Content" property="content" z="kqEmhDonz+zrHN0weCETSbwDbfM="/>
+            <table:column calendar="true" dateTimePattern="${news_post_date_format}" id="c_com_roo_team19_domain_News_Post" property="post" z="gAMwZ51Kc2DRVSBIPHUq89Ychts="/>
+            <table:column id="c_com_roo_team19_domain_News_TimePost" property="timePost" z="JKJJHsMqf9ttESNL0cGCW21xq24="/>
+        </table:table>
+    </page:list>
+</div>

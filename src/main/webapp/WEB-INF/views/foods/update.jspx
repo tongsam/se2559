@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_team19_domain_Food" modelAttribute="food" path="/foods" versionField="Version" z="+mIXnvG2Q6y9C8IKjZ7sioeyUrs=">
+        <field:select field="seatnumber" id="c_com_roo_team19_domain_Food_seatnumber" itemValue="id" items="${seats}" path="/seats" z="+H8MoIIh0s0jq/vMq8h7FCq81U0="/>
+        <field:input field="food" id="c_com_roo_team19_domain_Food_food" required="true" z="RxkTMnG6Vjfg1uNWigCJdIaJ7UY="/>
+        <field:input field="drink" id="c_com_roo_team19_domain_Food_drink" required="true" z="ZgCveZDUEDEOq1JKvbuuEl3SkBM="/>
+        <field:input field="price" id="c_com_roo_team19_domain_Food_price" validationMessageCode="field_invalid_number" z="5Jfaswc2IoONUjWdtB+6O0bYePM="/>
+        <field:select field="members" id="c_com_roo_team19_domain_Food_members" itemValue="id" items="${memberses}" path="/memberses" z="3s5ChZXPSfwDr5nenutji4hX7cY="/>
+    </form:update>
+</div>

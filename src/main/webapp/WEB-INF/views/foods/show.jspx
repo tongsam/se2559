@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_Food" object="${food}" path="/foods" z="QWfUAmFgxEZLdr7JX59+4o3eNNM=">
+        <field:display field="seatnumber" id="s_com_roo_team19_domain_Food_seatnumber" object="${food}" z="fg3qq28UM0yVHYe0yzCtL9q2BXA="/>
+        <field:display field="food" id="s_com_roo_team19_domain_Food_food" object="${food}" z="IS/s2VrCL84KEuzyZp8tugmsIKw="/>
+        <field:display field="drink" id="s_com_roo_team19_domain_Food_drink" object="${food}" z="yo4DR/co/X387IScUeaV6fvNfQ0="/>
+        <field:display field="price" id="s_com_roo_team19_domain_Food_price" object="${food}" z="bHPEI3oPiAcfrs0kKKTKfB2nuQE="/>
+        <field:display field="members" id="s_com_roo_team19_domain_Food_members" object="${food}" z="UT4VhT1rGb/yqFHpu3SAX8Sm9zg="/>
+    </page:show>
+</div>
